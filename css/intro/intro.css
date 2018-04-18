@@ -1,0 +1,36 @@
+.intro {
+    display: flex; /*display: flex; делает все дочерние элементы резиновыми — flex, а не блочными — block, как было изначально.*/
+    background: url("../../img/decor/intro/intro.jpg") center center no-repeat;
+    background-size: cover; /*растягивает задний фон на всю ширину*/
+    overflow: hidden;
+    width: 100%;
+    flex-grow: 1; /*flex-grow определяет, какую часть свободного пространства может занять контейнер, в соотношении с другими контейнерами.*/
+}
+
+.intro__animation {
+    display: block;
+    margin: auto; /*ставит блок по центру*/
+    text-align: center; /*ставит содержимое блока по центру*/
+    animation: bounceIn 2s;
+}
+
+.intro__logo {
+    margin-bottom: 35px;
+}
+
+.intro__link {
+    display: block;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 20px;
+    border-radius: 3px;
+    background-color: rgb(248, 149, 19);
+    transition: 0.3s;
+}
+
+.intro__link:hover {
+    background-color: rgb(19, 20, 21);
+}

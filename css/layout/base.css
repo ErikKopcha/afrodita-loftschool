@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box; /*Свойство box-sizing позволяет изменить этот алгоритм, чтобы свойства width и height задавали размеры не контента, а размеры блока.*/
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex; /*Чтобы запустить механизм flexbox-раскладки, просто установите свойство display для родительского HTML-элемента:*/
+    flex-direction: column; /*С направлением column flex-элементы укладываются в колонку сверху вниз.*/
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    /*-moz-osx-font-smoothing: antialiased;*/
+}
+
+.wrapper {
+    flex: 1 0 auto;
+    overflow: hidden;
+    min-width: 1100px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1060px;
+}
+
+.container--min {
+    width: 740px;
+}
+
+.container--article {
+    width: 880px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}

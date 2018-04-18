@@ -1,0 +1,36 @@
+.header {
+    background-color: #131415;
+}
+
+.header__row {
+    display: flex;/*Чтобы запустить механизм flexbox-раскладки, просто установите свойство display для родительского HTML-элемента:*/
+    justify-content: space-between; /*Блоки распределены вдоль главной оси, при этом первый элемент прижат к началу оси, а последний - к концу.*/
+    align-items: center; /*Блоки стоят по центру поперечной оси.*/
+    padding: 18px 0 15px 0;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column; /*С направлением column flex-элементы укладываются в колонку сверху вниз.*/
+    align-items: flex-end; /*Блоки прижаты к концу поперечной оси.*/
+    font-weight: bold;
+}
+
+.contacts__phone {
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+}
+
+.contacts__desc {
+    font-size: 14px;
+    padding-top: 3px;
+    color: rgba(248, 149, 19, 0.702);
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+    transition: .4s;
+}
+
+.contacts__desc:hover {
+    color: rgba(255, 255, 255, 0.702);
+}
