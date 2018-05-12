@@ -1,6 +1,6 @@
 /* layout settings */
 
-@import url("../../../testing/css/layout/normalize.css");
+@import url("layout/normalize.css");
 @import url("layout/base.css");
 
 /* blocks */

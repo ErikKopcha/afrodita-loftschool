@@ -11,7 +11,7 @@
     display: block;
     margin: auto; /*ставит блок по центру*/
     text-align: center; /*ставит содержимое блока по центру*/
-    animation: bounceIn 2s;
+    animation: bounceIn 1s;
 }
 
 .intro__logo {
