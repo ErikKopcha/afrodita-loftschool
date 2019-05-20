@@ -1,3 +1,3 @@
 # Afrodita 
 <i>LoftSchool lvl 1:</i>
-<a href="https://erikkopcha.github.io/afrodita-loftschool/intro.html">-></a>
+<a href="https://erikkopcha.github.io/afrodita-loftschool/intro.html"> <b>--></b> </a>
