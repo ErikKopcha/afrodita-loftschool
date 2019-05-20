@@ -1,6 +1,2 @@
 # Afrodita
-# Afrodita
-# Afrodita
-# afrodita
-# Afrodita
-# afrodita-loftschool
+https://erikkopcha.github.io/afrodita-loftschool/intro.html
