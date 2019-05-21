@@ -1,3 +1,7 @@
 # Afrodita 
 
-<a href="https://erikkopcha.github.io/afrodita-loftschool/intro.html"> <b>LoftSchool lvl 1: --></b> </a>
+**Training Project:** Afrodita lvl 1 (<i>LoftSchool>/i>)
+
+**Description:** HTML5 / CSS3 
+
+**GitHub Pages:** [Afrodita](https://erikkopcha.github.io/afrodita-loftschool/intro.html)
