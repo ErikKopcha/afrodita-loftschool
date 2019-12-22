@@ -2,4 +2,4 @@
 
 **Training Project:** Afrodita lvl 1 (<i>LoftSchool</i>)
 
-**Description:** HTML5 / CSS3 
+**Technology stack:** HTML5 / CSS3 
